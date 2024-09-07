@@ -1,0 +1,75 @@
+*Callbacks: Remove repetition and simplify code.
+
+// Without Callbacks
+function square(n) { 
+    return n * n;
+}
+function Cube(n) { 
+    return n * n * n;
+}
+
+function calculation(n) { 
+    let num1 = square(n);
+    let num2 = square(n);
+    return num1 + num2;
+}
+
+// function calculation(n) {
+// //     let num1 = Cube(n);
+// //     let num2 = Cube(n);
+// //     return num1 + num2;
+// // }
+
+console.log(calculation(3)); 
+
+--------------------------------
+// Without Callbacks
+function square(n) { 
+    return n * n;
+}
+function Cube(n) { 
+    return n * n * n;
+}
+
+function calculation(n, fn) { 
+    let num1 = fn(n);
+    let num2 = fn(n);
+    return num1 + num2;
+}
+console.log(calculation(3,Cube));
+
+-------------------------------------
+
+*Async Function:
+Why:
+1.JS is single threaded in nature and doesn't have access to everything at first.
+Ex:
+fs.readFile(fs);// If here doesn't read the file it will keep on waiting and doesn't move furthur.
+console.log("Hello world");
+
+*Async Function:
+1.readfile
+2.setTimeout
+
+*C++ of browser.
+*OS of System.
+
+*So JS is not doing async task rather, delegating it to browser or os to do async task.
+*Even callback done and its ready to execute will wait until the thread being ideal.
+
+*Promises:
+
+#Approach-01
+How you write async on ur own.
+*Under the hood use existing async fun.
+*But my async never reach the web api sec.
+
+Why:
+Get rid of callback hell(Callback inside callback)
+
+#Approach-02: Use Promise
+
+
+
+
+
