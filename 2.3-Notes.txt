@@ -1,0 +1,12 @@
+1.PWD- print working dir
+2.CD- Change dir(desktop/Coding)
+3.CD- ..(return back)(../..)
+4.Ls-List all file and folders
+5.mkdir-Make direcrtory
+6.touch- to make file
+7.cat- to read content of file
+8.Edit: vi(vim editor)
+cmd: vi hi.txt
+i:insert mode on
+kdjsj
+esc+:q!
