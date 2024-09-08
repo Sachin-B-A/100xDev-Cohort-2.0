@@ -1,0 +1,60 @@
+Week - 2.2:
+1.ECMAScript: is a standard rules specification for scripting lang.
+ex: ES5,ES6,etc..
+
+2.JS: most widely used implementation of ECMAScript.
+Additional Specifications like: which are not part 
+1.DOM(Document object model).
+
+*Common compiler Browser:
+1.Google:V8.(C++)
+2.FireFox:SpiderMonkey.(C + rust)
+
+*2012-2013: Update v8 add new fun like backend lang like java( readfile , http , etc)----> Nodejs(Written in C++).
+
+1.JS:Lang.
+2.NodeJs:Runtime(Which can convert js into Binary Code).
+3.Bun:Same like Nodejs(Slower),but Better and Faster(Written in Zig).
+
+
+NodeJs:
+What we can do using NodeJS:
+1.Create Clis-Command line interface.
+2.Create a video player.
+3.Create a game.
+4.Create a HTTP Server.
+
+1.HTTP:(Hyper text transfer Protocol)
+*Protocol defined for machines to communicate.
+*Front com with backend.
+
+2.HTTP Server:
+*Some Code that follows HTTP Protocol.
+*And able to communicate with the Client(Browser,etc)
+EX: Same like call app used to comm.
+Note: Understanding think of them like a function, client give ip--->argument, funname---> url.
+
+*Remaining refer the slides
+*Common Methods:
+1.Post
+2.Get
+3.Put
+4.Delete
+
+*Status code types:
+1.200-Everything is ok.
+2.404-Page/Route not found.
+3.403-Authentication issue.
+4.500-Internal server error.
+
+*Express: is a lib used to build http server.
+
+*Rest API: Means , a nodejs server is trying to be accessed by browser, mobile app, etc but we restrict access to just another nodejs server.
+
+
+
+
+
+
+
+
