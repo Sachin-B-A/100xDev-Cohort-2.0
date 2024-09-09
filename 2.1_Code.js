@@ -9,7 +9,8 @@
 // function calculation(n, fn) {
 //     let num1 = fn(n);
 //     let num2 = fn(n);
-//     return num1 + num2;
+//     let num3 = fn(n);
+//     return num1 + num2 + num3;
 // }
 // console.log(calculation(3,Cube));
 
