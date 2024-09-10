@@ -28,6 +28,7 @@ What we can do using NodeJS:
 1.HTTP:(Hyper text transfer Protocol)
 *Protocol defined for machines to communicate.
 *Front com with backend.
+*Provide medium to handshake front end with backend 
 
 2.HTTP Server:
 *Some Code that follows HTTP Protocol.
