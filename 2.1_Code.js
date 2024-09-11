@@ -49,7 +49,7 @@
 //     const val = await Promised(5000);
 
 // }
-
+// Promises are very much required 
 function promises() { 
     const p1 = new Promise();
     const p2 = new Promise();
