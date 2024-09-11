@@ -8,5 +8,6 @@
 8.Edit: vi(vim editor)
 cmd: vi hi.txt
 i:insert mode on
-kdjsj
+Write what ever want
 esc+:q!
+wq! for saving changes 
