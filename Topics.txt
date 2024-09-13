@@ -1,0 +1,64 @@
+## **Java Collection Framework**
+
+### **1. Custom Classes**
+   - *Custom Classes* - **Done**
+
+### **2. Collection Interface**
+
+#### **a. List Interface**
+
+   1. **ArrayList Class** - *Done*  
+   2. **LinkedList Class** - *Done*  
+   3. **Stack Class** - *Done*  
+   4. **Vector Class**
+
+#### **b. Set Interface**
+
+   1. **HashSet Class**  
+   2. **TreeSet Class**  
+
+#### **c. Queue Interface**
+
+   1. **ArrayDeque Class**  
+   2. **LinkedList Class** - *Done*  
+   3. **PriorityQueue Class**  
+
+#### **d. Map Interface**
+
+   1. **HashMap Class**  
+   2. **TreeMap Class**  
+
+### **3. Iterator Interface**
+
+   - **ListIterator**
+
+### **4. Custom Comparator**
+
+   - Implementation to define custom sorting using `Comparator`.
+
+### **5. Common Algorithms in Collections**
+
+   1. `Collections.sort(list);`  
+      - Sorts the list in ascending order.
+
+   2. `Collections.max(list);`  
+      - Returns the maximum element of the list.
+
+   3. `Collections.min(list);`  
+      - Returns the minimum element of the list.
+
+   4. `Collections.reverse(list);`  
+      - Reverses the order of elements in the list.
+
+   5. `Arrays.sort(array);`  
+      - Sorts the specified array into ascending order.
+
+   6. `Collections.frequency(list, element);`  
+      - Returns the frequency of the specified element in the list.
+
+   7. `Collections.binarySearch(list, key);`  
+      - Searches the specified list for the specified object using the binary search algorithm.
+
+   8. `Math.pow(base, exponent);`  
+      - Returns the value of the first argument raised to the power of the second argument.
+
